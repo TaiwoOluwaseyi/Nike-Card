@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    display: grid;
+    place-items: center;
+}
+
+.card-wrapper {
+    width: 50rem;
+    height: 62rem;
+    background: #ccc;
+    padding: 0 10rem;
+    display: grid;
+    place-items: center;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.shoe-1 {
+    width: 30rem;
+}
