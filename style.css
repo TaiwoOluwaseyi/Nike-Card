@@ -233,7 +233,24 @@ background: #c02244;
 }
 
 
-
+@media (max-width: 800px){
+    .card-wrapper{
+        width: 100%;
+        padding:0;
+    }
+    .shoe-1{
+        top: 13rem;
+        right: 6rem;
+        width: 17rem;
+    }
+    .container.change .shoe-2{
+        transform: translateX(-55rem) rotateZ(-45deg);
+    }
+    .shoe-2{
+        top: 10rem;
+        width: 17rem;
+    }
+}
 
 
 
